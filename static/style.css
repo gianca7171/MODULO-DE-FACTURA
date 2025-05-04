@@ -1,0 +1,222 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f9f4;  /* Fondo suave, verde claro */
+    color: #333;  /* Texto oscuro para mejor legibilidad */
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+.title {
+    font-size: 2rem;
+    color: #2c6e49;  /* Verde oscuro para el título */
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #27ae60;  /* Verde brillante y profesional */
+    color: white;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #1f6430;  /* Verde más oscuro para borde */
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Estilo de la barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;  /* Verde más claro para el hover */
+}
+
+/* Estilo del formulario */
+.form-style {
+    background-color: white;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los formularios e inputs */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2c6e49;  /* Verde oscuro para las etiquetas */
+}
+
+.input-select, .input-text {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #aab7b8;  /* Gris suave */
+    font-size: 1rem;
+}
+
+.input-select:focus, .input-text:focus {
+    outline-color: #27ae60;  /* Verde brillante para el enfoque */
+}
+
+/* Estilo de los botones */
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #2ecc71;  /* Verde claro para los botones principales */
+    color: white;
+    margin-top: 2rem;
+}
+
+.btn-primary:hover {
+    background-color: #27ae60;  /* Verde más oscuro en hover */
+}
+
+.btn-view {
+    background-color: #1abc9c;  /* Verde brillante para los botones de vista */
+    color: white;
+}
+
+.btn-view:hover {
+    background-color: #16a085;  /* Verde más oscuro en hover */
+}
+
+/* Estilo de la tabla */
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-style th, .table-style td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-style th {
+    background-color: #27ae60;  /* Verde brillante para el encabezado */
+    color: white;
+    font-weight: bold;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #ecf6f1;  /* Gris suave con tono verde claro */
+}
+
+.table-style tr:hover {
+    background-color: #d4f2e5;  /* Verde suave en hover */
+}
+
+/* Estilo del total */
+.total-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c6e49;
+}
+
+.total {
+    font-size: 1.5rem;
+    color: #e74c3c;  /* Rojo suave para el total */
+}
+
+/* Estilo de la factura */
+.factura-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+    background: #2ecc71;  /* Verde brillante para el encabezado de la factura */
+    border-radius: 6px;
+    color: white;
+}
+
+.cliente-info p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #34495e;  /* Gris oscuro para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Estilo de los títulos dentro de las páginas */
+.subtitle {
+    font-size: 1.5rem;
+    color: #2c6e49;
+    margin-top: 2rem;
+}
+
+/* Estilo de la tabla de facturas */
+.table-style th, .table-style td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-style th {
+    background-color: #27ae60;  /* Verde brillante para el encabezado */
+    color: white;
+    font-weight: bold;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #ecf6f1;
+}
+
+.table-style tr:hover {
+    background-color: #d4f2e5;
+}
